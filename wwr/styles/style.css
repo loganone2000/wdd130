@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Dindra';
+    src: url('DindraRegular-Regular.woff2') format('woff2'),
+        url('DindraRegular-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;   
