@@ -8,13 +8,13 @@
     font-style: normal;
     font-display: swap;
 }
+:root {
+--heading-font: "Dindra";
+--paragraph-font: "Source Sans Pro", Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;   
-}
-nav a {
-    text-align: center;
-    text-decoration: none;
 }
 #hero-msg h1 , #hero-msg h4 { 
     text-align: center;
@@ -25,66 +25,98 @@ nav a {
 main section  {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 } 
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }            
 body {
     background-color: #fcfbfb; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#1FB8FF;
 }
 nav a {
+    text-align: center;
+    text-decoration: none;
     background-color: #1FB8FF;
     color: #221656;
+    padding: 35px;
 }
 .home-title {
+    font-family: 'Dindra', 'Bradley Hand', sans-serif;
+    font-size: 2em;
     background-color: #fcfbfb;
     color: #221656;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     background-color: #fcfbfb;
     color: #221656;
 }
-msg h2 {
-    background-color: #0092DB;
+.msg h2 {
+    background-color: #1FB8FF;
     color: #221656;
+    font-family: 'Dindra', 'Bradley Hand', sans-serif;
 }
-msg p {
-    background-color: #0092DB;
+.msg p {
+    background-color: #1FB8FF;
     color: #221656;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 nav a:hover {
     background-color: #0092DB;
     color: #221656;
 }
 .book, .join {
-    background-color: #fcfbfb; 
+    background-color: #CB7E14; 
     color: #221656;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#0492D4;
     color: #221656;
+    
 }
 #background {
     background-color: #CB7E14;
 }
 .msg {
     background-color: #1FB8FF; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:#FAFF1E;
     color: #CB7E14;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     background-color:#FAFF1E;
@@ -100,4 +132,17 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
+}
+footer .socialimg{
+    padding-top: 15px;
 }    
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.mountains {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
