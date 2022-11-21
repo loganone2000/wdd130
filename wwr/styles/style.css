@@ -128,7 +128,7 @@ nav a:hover {
     color: #221656;
     border-radius: 5px;
     opacity: 0.5;
-    filter: alpha(opacity=50);
+    /*filter: alpha(opacity=50);*/
 }
 .book, .join {
     background-color: #CB7E14; 
