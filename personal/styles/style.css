@@ -29,8 +29,8 @@
 
 #background {
   background-color: var(--primary-color);
-  grid-column: 1/11;
-  grid-row: 4/9;
+  grid-column: 4/11;
+  grid-row: 5/7;
 }
 .msg {
   background-color: var(--nav-background-color); 
@@ -295,7 +295,7 @@ footer .socialimg{
   padding-bottom: 50px;
   width: 80%;
   grid-column: 7/11;
-  grid-row: 4/7;
+  grid-row: 65/7;
   box-shadow: 5px 5px 10px #6f7364;
   z-index: 1;
   
@@ -305,7 +305,62 @@ footer .socialimg{
   line-height: 1.5em;
   padding: 15px;
   grid-column: 1/6;
-  grid-row: 4/7;
+  
   box-shadow: 5px 5px 5px #6f7364;
   z-index: 2;
 }
+#middle-row {
+  background-color: #494D4E;
+  display: grid;
+  padding: 10px;
+  flex-flow: row wrap;
+  align-items: center;
+  grid-column: 1/11;
+  grid-row: 1/6;
+
+}
+  .rapids {
+  color: #C8F8DD;
+}
+ .leftcol {
+  
+  width: 60%;
+  flex: 1 0 auto;
+  margin: .5em;
+}
+.rightcol {
+  grid-column: 5/11;
+  width: 100%;
+  flex: 1 0 15em;
+  margin: .5em;
+}
+
+.image {
+box-shadow: 5px 5px 10px #6f7364;
+}
+
+#top-row {
+background-color: #6FC5DB;
+  display: flex;
+flex-flow: row wrap;
+align-items: center;
+} 
+#bottom-row {
+ text-align: center;
+}
+#bottom-row2 {
+background-color: #8374C3;
+  display: flex;
+flex-flow: row wrap;
+align-items: center;
+}
+.imagem {
+  box-shadow: 5px 5px 10px #6f7364;
+  padding: 15px;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  box-shadow: 5px 5px 5px #6f7364;
+  z-index: 2;
+}
+
+  
