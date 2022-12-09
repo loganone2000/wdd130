@@ -29,14 +29,14 @@
 
 #background {
   background-color: var(--primary-color);
-  grid-column: 4/11;
-  grid-row: 5/7;
+  grid-column: 1/11;
+  grid-row: 1/9;
 }
 .msg {
   background-color: var(--nav-background-color); 
   line-height: 1.5em;
   padding: 35px;
-  grid-column: 6/10;
+  grid-column: 7/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
   z-index: 2;
@@ -264,7 +264,7 @@ footer .socialimg{
   padding-top: 25px;
   padding-bottom: 50px;
   width: 100%;
-  grid-column: 2/7;
+  grid-column: 2/6;
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
   z-index: 1;
@@ -362,5 +362,56 @@ align-items: center;
   box-shadow: 5px 5px 5px #6f7364;
   z-index: 2;
 }
+/* added effects */
 
+.container {
+  position: relative;
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  width: 100%;
+  grid-column: 2/6;
+  grid-row: 5/8;
   
+  z-index: 1;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  width: 100%;
+  grid-column: 2/6;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
